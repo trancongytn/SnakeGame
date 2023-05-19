@@ -213,7 +213,7 @@ bool kt_ran_cham_duoi(int toadox[], int toadoy[])
 }
 bool kt_gameover(int toadox[], int toadoy[])
 {
-	if (kt_ran_cham_tuong(toadox[0], toadoy[0]) == true && kt_ran_cham_duoi(toadox, toadoy) == true)
+	if (kt_ran_cham_tuong(toadox[0], toadoy[0]) == true || kt_ran_cham_duoi(toadox, toadoy) == true)
 	{
 		return true;
 	}
