@@ -364,7 +364,7 @@ void Menu()
 	gotoXY(40, 16);
 	cout << "1. Play";
 	gotoXY(40, 18);
-	cout << "2. Introduction";
+	cout << "2. Instructions";
 	gotoXY(40, 20);
 	cout << "3. Choose lever";
 	gotoXY(40, 22);
