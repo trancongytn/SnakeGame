@@ -202,7 +202,7 @@ bool kt_ran_cham_tuong(int x0, int y0)
 }
 bool kt_ran_cham_duoi(int toadox[], int toadoy[])
 {
-	for (int i = 0; i < sl; i++)
+	for (int i = 1; i < sl; i++)
 	{
 		if ((toadox[0] == toadox[i]) && (toadoy[0] == toadoy[i]))
 		{
