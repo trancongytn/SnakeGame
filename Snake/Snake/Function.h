@@ -190,11 +190,11 @@ bool kt_ran_cham_tuong(int x0, int y0)
 	{
 		return true;
 	}
-	else if (x0 == 100 && (y0 >= 1 && x0 <= 26))
+	else if (x0 == 100 && (y0 >= 1 && y0 <= 26))
 	{
 		return true;
 	}
-	else if (x0 == 10 && (y0 >= 1 && x0 <= 26))
+	else if (x0 == 10 && (y0 >= 1 && y0 <= 26))
 	{
 		return true;
 	}
